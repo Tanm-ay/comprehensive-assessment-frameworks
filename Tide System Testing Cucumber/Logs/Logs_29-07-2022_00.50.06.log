@@ -1,0 +1,69 @@
+00:50:06.877 [main] INFO  com.mindtree.utilities.BaseClass - System property set. Driver initialized
+00:50:07.010 [main] DEBUG com.mindtree.utilities.BaseClass - Maximized the browser window
+00:50:25.257 [main] DEBUG com.mindtree.utilities.BaseClass - Navigated to https://tide.com/en-us
+00:50:25.524 [main] INFO  com.mindtree.utilities.BaseClass - [TC PASS] Promotional image is present on homepage
+00:50:27.200 [main] INFO  com.mindtree.utilities.BaseClass - System property set. Driver initialized
+00:50:27.326 [main] DEBUG com.mindtree.utilities.BaseClass - Maximized the browser window
+00:50:52.463 [main] DEBUG com.mindtree.utilities.BaseClass - Navigated to https://tide.com/en-us
+00:51:48.400 [main] INFO  com.mindtree.utilities.BaseClass - Clicked on P&G icon
+00:51:49.330 [main] INFO  com.mindtree.utilities.BaseClass - [TC PASS] Redirected to P&G website successfully
+00:51:50.625 [main] INFO  com.mindtree.utilities.BaseClass - System property set. Driver initialized
+00:51:50.745 [main] DEBUG com.mindtree.utilities.BaseClass - Maximized the browser window
+00:52:01.523 [main] DEBUG com.mindtree.utilities.BaseClass - Navigated to https://tide.com/en-us
+00:52:01.884 [main] DEBUG com.mindtree.utilities.BaseClass - Clicked the link Live Chat
+00:52:02.121 [main] INFO  com.mindtree.utilities.BaseClass - [TC PASS] String found.  Expected [ REAL-TIME
+CHAT SUPPORT ] , Found [ REAL-TIME
+CHAT SUPPORT ]
+00:52:03.523 [main] INFO  com.mindtree.utilities.BaseClass - System property set. Driver initialized
+00:52:03.642 [main] DEBUG com.mindtree.utilities.BaseClass - Maximized the browser window
+00:52:12.996 [main] DEBUG com.mindtree.utilities.BaseClass - Navigated to https://tide.com/en-us
+00:52:13.387 [main] DEBUG com.mindtree.utilities.BaseClass - Clicked the link Terms & Conditions
+00:52:21.095 [main] INFO  com.mindtree.utilities.BaseClass - [TC PASS] String found.  Expected [ Copyrights and Trademarks ] , Found [ Copyrights and Trademarks ]
+00:52:22.772 [main] INFO  com.mindtree.utilities.BaseClass - System property set. Driver initialized
+00:52:22.899 [main] DEBUG com.mindtree.utilities.BaseClass - Maximized the browser window
+00:52:39.023 [main] DEBUG com.mindtree.utilities.BaseClass - Navigated to https://tide.com/en-us
+00:52:39.268 [main] INFO  com.mindtree.utilities.BaseClass - [TC PASS] String found.  Expected [ P&G ] , Found [ Part of the P&G Family ]
+00:52:40.584 [main] INFO  com.mindtree.utilities.BaseClass - System property set. Driver initialized
+00:52:40.707 [main] DEBUG com.mindtree.utilities.BaseClass - Maximized the browser window
+00:53:07.185 [main] DEBUG com.mindtree.utilities.BaseClass - Navigated to https://tide.com/en-us
+00:53:07.544 [main] DEBUG com.mindtree.utilities.BaseClass - Moved to element How to Wash Clothes
+00:53:07.895 [main] DEBUG com.mindtree.utilities.BaseClass - Clicked the link 
+00:53:10.097 [main] INFO  com.mindtree.utilities.BaseClass - [TC PASS] String found.  Expected [ How to Use a Washing Machine ] , Found [ How to Use a Washing Machine ]
+00:53:11.704 [main] INFO  com.mindtree.utilities.BaseClass - System property set. Driver initialized
+00:53:11.815 [main] DEBUG com.mindtree.utilities.BaseClass - Maximized the browser window
+00:53:37.345 [main] DEBUG com.mindtree.utilities.BaseClass - Navigated to https://tide.com/en-us
+00:53:37.520 [main] DEBUG com.mindtree.utilities.BaseClass - Clicked the search box
+00:53:37.667 [main] DEBUG com.mindtree.utilities.BaseClass - Entered the string Washing
+00:53:41.049 [main] DEBUG com.mindtree.utilities.BaseClass - Pressed Enter key
+00:53:41.108 [main] INFO  com.mindtree.utilities.BaseClass - [TC PASS] String found on top.  Expected [ Washing ] , Found [ for "Washing" ]
+00:53:42.410 [main] INFO  com.mindtree.utilities.BaseClass - System property set. Driver initialized
+00:53:42.537 [main] DEBUG com.mindtree.utilities.BaseClass - Maximized the browser window
+00:54:08.207 [main] DEBUG com.mindtree.utilities.BaseClass - Navigated to https://tide.com/en-us
+00:54:08.511 [main] DEBUG com.mindtree.utilities.BaseClass - Clicked the link Register
+00:54:09.189 [main] DEBUG com.mindtree.utilities.BaseClass - Clicked the link Sign up now
+00:54:24.862 [main] DEBUG com.mindtree.utilities.BaseClass - Entered the string Bristle
+00:54:25.029 [main] DEBUG com.mindtree.utilities.BaseClass - Entered the string ajayk@gmail.com
+00:54:25.139 [main] DEBUG com.mindtree.utilities.BaseClass - Entered the string !Special2
+00:54:25.215 [main] INFO  com.mindtree.utilities.BaseClass - [TC PASS] Valid credentials. Account can be created
+00:54:26.503 [main] INFO  com.mindtree.utilities.BaseClass - System property set. Driver initialized
+00:54:26.616 [main] DEBUG com.mindtree.utilities.BaseClass - Maximized the browser window
+00:54:38.706 [main] DEBUG com.mindtree.utilities.BaseClass - Navigated to https://tide.com/en-us
+00:54:39.064 [main] DEBUG com.mindtree.utilities.BaseClass - Clicked the link Register
+00:54:39.904 [main] DEBUG com.mindtree.utilities.BaseClass - Clicked the link Sign up now
+00:55:01.200 [main] DEBUG com.mindtree.utilities.BaseClass - Entered the string Mukil
+00:55:01.394 [main] DEBUG com.mindtree.utilities.BaseClass - Entered the string ajax@xyz.zyx
+00:55:01.547 [main] DEBUG com.mindtree.utilities.BaseClass - Entered the string !Special2
+00:55:01.696 [main] ERROR com.mindtree.utilities.BaseClass - [TC FAIL] Account creatable even after wrong email
+00:55:03.580 [main] INFO  com.mindtree.utilities.BaseClass - System property set. Driver initialized
+00:55:03.707 [main] DEBUG com.mindtree.utilities.BaseClass - Maximized the browser window
+00:55:14.762 [main] DEBUG com.mindtree.utilities.BaseClass - Navigated to https://tide.com/en-us
+00:55:15.019 [main] INFO  com.mindtree.utilities.BaseClass - Clicked Powder footer link
+00:55:16.799 [main] INFO  com.mindtree.utilities.BaseClass - [TC PASS] String found in first result.  Expected [ Powder ] , Found [ Tide Clean Breeze Powder Laundry Detergent ]
+00:55:18.410 [main] INFO  com.mindtree.utilities.BaseClass - System property set. Driver initialized
+00:55:18.538 [main] DEBUG com.mindtree.utilities.BaseClass - Maximized the browser window
+00:55:30.016 [main] DEBUG com.mindtree.utilities.BaseClass - Navigated to https://tide.com/en-us
+00:55:30.204 [main] DEBUG com.mindtree.utilities.BaseClass - Clicked the link US - English
+00:55:43.358 [main] INFO  com.mindtree.utilities.BaseClass - [TC PASS] Website's language changed to Spanish
+00:55:44.649 [main] INFO  com.mindtree.utilities.BaseClass - System property set. Driver initialized
+00:55:44.779 [main] DEBUG com.mindtree.utilities.BaseClass - Maximized the browser window
+00:55:49.998 [main] INFO  com.mindtree.utilities.BaseClass - Report opened successfully
