@@ -1,7 +1,7 @@
 Feature: Website Language
 
 @last
-Scenario Outline: Check Website Language Change
+Scenario Outline: Verify Website Language Change
 
 Given I am on website's homepage
 When I click US-English

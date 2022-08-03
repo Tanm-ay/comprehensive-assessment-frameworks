@@ -1,0 +1,7 @@
+11:30:30.441 [main] INFO  com.mindtree.utilities.BaseClass - System property set. Driver initialized
+11:30:30.579 [main] DEBUG com.mindtree.utilities.BaseClass - Maximized the browser window
+11:30:35.899 [main] DEBUG com.mindtree.utilities.BaseClass - Navigated to https://tide.com/en-us
+11:30:36.259 [main] INFO  com.mindtree.utilities.BaseClass - [TC PASS] Promotional image is present on homepage
+11:30:38.202 [main] INFO  com.mindtree.utilities.BaseClass - System property set. Driver initialized
+11:30:38.316 [main] DEBUG com.mindtree.utilities.BaseClass - Maximized the browser window
+11:30:39.611 [main] INFO  com.mindtree.utilities.BaseClass - Report opened successfully

@@ -1,6 +1,6 @@
 Feature: SignUp
 
-Scenario Outline: Check Valid Account Sign Up
+Scenario Outline: Verify Valid Account Sign Up
 
 Given I am on website's homepage
 When I click Register link
@@ -9,7 +9,7 @@ And Enter the details
 Then System should validate the details
 
 
-Scenario Outline: Check Invalid Account Sign Up
+Scenario Outline: Verify Invalid Account Sign Up
 
 Given I am on website's homepage
 When I click Register link

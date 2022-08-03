@@ -1,6 +1,6 @@
 Feature: Navigation Wash
 
-Scenario Outline: Check Text Under How To Wash Clothes
+Scenario Outline: Verify Text Under How To Wash Clothes
 
 Given I am on website's homepage
 When I hover mouse over How to Wash Clothes

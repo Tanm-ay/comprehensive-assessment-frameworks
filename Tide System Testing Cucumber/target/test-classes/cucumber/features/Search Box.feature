@@ -1,6 +1,6 @@
 Feature: Search Box
 
-Scenario Outline: Check Input Search Text Result
+Scenario Outline: Verify Input Search Text Result
 
 Given I am on website's homepage
 When I click search box

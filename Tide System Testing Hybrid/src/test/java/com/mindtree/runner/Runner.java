@@ -70,7 +70,7 @@ public class Runner
 	@Test
 	public void promoHome()
 	{
-		BaseClass.ts = BaseClass.ext.createTest("Check Promotional Image On Homepage");
+		BaseClass.ts = BaseClass.ext.createTest("Verify Promotional Image On Homepage");
 		driver = baseObject.initializeDriver(5, "Configure", "Chrome");
 		baseObject.navigateToUrl(driver, "Configure", "Tide");
 		homeObject.verifyPromoImg(driver);
@@ -79,7 +79,7 @@ public class Runner
 	@Test
 	public void pngRedirect()
 	{
-		BaseClass.ts = BaseClass.ext.createTest("Check P&G Icon Redirection");
+		BaseClass.ts = BaseClass.ext.createTest("Verify P&G Icon Redirection");
 		driver = baseObject.initializeDriver(5, "Configure", "Chrome");
 		baseObject.navigateToUrl(driver, "Configure", "Tide");
 		homeObject.clickPngIcon(driver);
@@ -89,7 +89,7 @@ public class Runner
 	@Test
 	public void liveChat()
 	{
-		BaseClass.ts = BaseClass.ext.createTest("Check Text Under Live Chat");
+		BaseClass.ts = BaseClass.ext.createTest("Verify Text Under Live Chat");
 		driver = baseObject.initializeDriver(5, "Configure", "Chrome");
 		baseObject.navigateToUrl(driver, "Configure", "Tide");
 		homeObject.clickLiveChat(driver);
@@ -99,7 +99,7 @@ public class Runner
 	@Test
 	public void tncFooter()
 	{
-		BaseClass.ts = BaseClass.ext.createTest("Check Link Under T&C Footer");
+		BaseClass.ts = BaseClass.ext.createTest("Verify Link Under T&C Footer");
 		driver = baseObject.initializeDriver(5, "Configure", "Chrome");
 		baseObject.navigateToUrl(driver, "Configure", "Tide");
 		homeObject.clickFooterTncLink(driver);
@@ -109,7 +109,7 @@ public class Runner
 	@Test
 	public void pngDisplay()
 	{
-		BaseClass.ts = BaseClass.ext.createTest("Check P&G Text On Homepage");
+		BaseClass.ts = BaseClass.ext.createTest("Verify P&G Text On Homepage");
 		driver = baseObject.initializeDriver(5, "Configure", "Chrome");
 		baseObject.navigateToUrl(driver, "Configure", "Tide");
 		homeObject.verifyPngHome(driver, fetchCell.fetchCellData(2, 'E'));
@@ -118,7 +118,7 @@ public class Runner
 	@Test
 	public void navigationWash()
 	{
-		BaseClass.ts = BaseClass.ext.createTest("Check Text Under How To Wash Clothes");
+		BaseClass.ts = BaseClass.ext.createTest("Verify Text Under How To Wash Clothes");
 		driver = baseObject.initializeDriver(5, "Configure", "Chrome");
 		baseObject.navigateToUrl(driver, "Configure", "Tide");
 		homeObject.hoverHowToWashClothes(driver);
@@ -129,7 +129,7 @@ public class Runner
 	@Test
 	public void searchText()
 	{
-		BaseClass.ts = BaseClass.ext.createTest("Check Input Search Text Result");
+		BaseClass.ts = BaseClass.ext.createTest("Verify Input Search Text Result");
 		driver = baseObject.initializeDriver(5, "Configure", "Chrome");
 		baseObject.navigateToUrl(driver, "Configure", "Tide");
 		homeObject.enterTextIntoSearchBox(driver, fetchCell.fetchCellData(2, 'G'));
@@ -139,7 +139,7 @@ public class Runner
 	@Test
 	public void signUpValid()
 	{
-		BaseClass.ts = BaseClass.ext.createTest("Check Valid Account Sign Up");
+		BaseClass.ts = BaseClass.ext.createTest("Verify Valid Account Sign Up");
 		driver = baseObject.initializeDriver(5, "Configure", "Chrome");
 		baseObject.navigateToUrl(driver, "Configure", "Tide");
 		homeObject.clickRegister(driver);
@@ -153,7 +153,7 @@ public class Runner
 	@Test
 	public void signUpEmailInvalid()
 	{
-		BaseClass.ts = BaseClass.ext.createTest("Check Invalid Account Sign Up");
+		BaseClass.ts = BaseClass.ext.createTest("Verify Invalid Account Sign Up");
 		driver = baseObject.initializeDriver(5, "Configure", "Chrome");
 		baseObject.navigateToUrl(driver, "Configure", "Tide");
 		homeObject.clickRegister(driver);
@@ -167,7 +167,7 @@ public class Runner
 	@Test
 	public void footerPowder()
 	{
-		BaseClass.ts = BaseClass.ext.createTest("Check Text Under Powder Footer");
+		BaseClass.ts = BaseClass.ext.createTest("Verify Text Under Powder Footer");
 		driver = baseObject.initializeDriver(5, "Configure", "Chrome");
 		baseObject.navigateToUrl(driver, "Configure", "Tide");
 		homeObject.clickFooterPowder(driver);
@@ -177,7 +177,7 @@ public class Runner
 	@Test
 	public void changeLanguage()
 	{
-		BaseClass.ts = BaseClass.ext.createTest("Check Website Language Change");
+		BaseClass.ts = BaseClass.ext.createTest("Verify Website Language Change");
 		driver = baseObject.initializeDriver(5, "Configure", "Chrome");
 		baseObject.navigateToUrl(driver, "Configure", "Tide");
 		homeObject.clickUsEnglish(driver);

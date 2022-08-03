@@ -1,6 +1,6 @@
 Feature: Promotional Image 
 
-Scenario Outline: Check Promotional Image On Homepage
+Scenario Outline: Verify Promotional Image On Homepage
 
 Given Website link is working
 When I land on website 

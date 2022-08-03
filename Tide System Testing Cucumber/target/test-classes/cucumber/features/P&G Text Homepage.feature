@@ -1,6 +1,6 @@
 Feature: P&G Text Homepage
 
-Scenario Outline: Check P&G Text On Homepage
+Scenario Outline: Verify P&G Text On Homepage
 
 Given Website link is working
 When I land on website
